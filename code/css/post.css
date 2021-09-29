@@ -1,0 +1,358 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+html {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+    font-family: 'NanumSquare', 'sans-serif';
+}
+
+
+#layout{
+    margin:0px auto; 
+    width:720px; 
+    background-color: white;
+}
+
+/* 제목 */
+.title_image{
+    z-index: 1;
+    position: relative;
+}
+
+.title_txt{
+    margin-top: -70px;
+    margin-left: 131px;
+    position: relative;
+    z-index: 2;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2E2E2E;
+}
+
+/* 내용 */
+.content{
+    padding-left: 16px;
+    padding-top: 32px;
+}
+
+.content_txt{
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    font-size: 15px;
+    color: #2E2E2E;
+}
+.content_txt2{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-size: 15px;
+    color: #2E2E2E;
+}
+
+/* 공감, 댓글, 수정 */
+.react{
+    padding-left: 16px;
+    padding-top: 103px;
+}
+
+.react_circle{
+    margin-right: 16px;
+    width: 80px; 
+    height: 33px; 
+    border-radius: 22px;
+    border: solid 1px #2E2E2E;
+    position: relative;
+    float: left;
+}
+
+.heart_icon{
+    margin: 10px 8px;
+}
+
+.react_circle_txt{
+    margin-top: -29px;
+    margin-left: 32px;
+    font-size: 12px;
+    color: #2E2E2E;
+    position: relative;
+}
+
+.comment_icon{
+    margin: 8px 10px;
+}
+
+.react_circle_txt2{
+    margin-top: -29px;
+    margin-left: 38px;
+    font-size: 12px;
+    color: #2E2E2E;
+    position: relative;
+}
+
+.modify_icon{
+    margin: 8px 6px;
+}
+
+
+.react_circle_txt3{
+    margin-top: -28px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #2E2E2E;
+    position: relative;
+}
+
+/* 카테고리 */
+.category{
+    padding: 97px 0px 16px 16px;
+    padding-left: 16px;
+    padding-top: 97px;
+}
+
+.category_txt{
+    padding-bottom: 16px;
+    font-size: 14px;
+    color: #2E2E2E;
+    font-weight: bold;
+}
+
+hr{
+    width: 688px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    border:#707070; 
+    border-top:solid 1px #707070;
+}
+
+.postlist_txt{
+    padding-bottom: 24px;
+    padding-right: 180px;
+    font-size: 13px;
+    color: #2E2E2E;
+    float: left;
+}
+
+.postlist_day{
+    padding-right: 16px;
+    font-size: 11px;
+    color: #2E2E2E;
+    float: right;
+    text-align: right;
+}
+
+.postlist_day2{
+    padding-right: 16px;
+    font-size: 11px;
+    color: #2E2E2E;
+    float: left;
+    text-align: right;
+}
+
+/* 하단 */
+.done{
+    padding-left: 16px;
+    padding-top: 188px;
+}
+
+
+/* 댓글 */
+.comment{
+    padding-left: 16px;
+    padding-top: 48px;
+}
+
+.comment_circle{
+    margin-left: 18px;
+    padding-left: 16px;
+    width: 608px; 
+    height: 144px; 
+    border-radius: 20px;
+    border: solid 1px #2E2E2E;
+}
+.user_pic{
+    margin: 16px 4px 8px 0px;
+    width: 16px; 
+    height: 16px; 
+    border-radius: 100px;
+    border: solid 1px #2E2E2E;
+    float: left;
+}
+
+.user_name{
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: 10px;
+    color: #2E2E2E;
+    font-weight: bold;
+}
+
+.reply{
+    margin: 16px 0px 24px 16px;
+    font-size: 12px;
+    color: #b1b1b1;
+}
+
+.reply_hr{
+    width: 576px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    border:#707070; 
+    border-top:solid 0.2px #707070;
+    float: center;
+}
+
+.sticker_icon{
+    margin-right: 4px;
+    position: relative;
+    float: left;
+}
+
+.sticker_icon_txt{
+    padding: 3px 16px 0px 4px;
+    font-size: 10px;
+    color: #2E2E2E;
+    position: relative;
+    float: left;
+}
+
+.image_icon{
+    margin-right: 4px;
+    position: relative;
+    float: left;
+}
+
+.image_icon_txt{
+    padding: 3px 16px 0px 4px;
+    font-size: 10px;
+    color: #2E2E2E;
+    position: relative;
+    float: left;
+}
+.save_txt{
+    margin-right: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5A70FF;
+    position: relative;
+    float: right;
+}
+
+
+/* 저장된 댓글 */
+/* 회오리감자 댓글 */
+.all_msg{
+    padding-left: 34px;
+}
+
+.comment_done{
+    padding-left: 16px;
+    padding-top: 4px;
+}
+
+.comment_done_box{
+    padding-left: 16px;
+    padding-top: 24px;
+}
+.msg{
+    margin-left: 16px;
+}
+
+.msg_done{
+    margin: 16px 0px 4px 8px;
+    font-size: 12px;
+    color: #2E2E2E;
+}
+
+.msg_done_date{
+    margin-left: 8px;
+    font-size: 10px;
+    color: #2E2E2E;
+}
+
+.re_msg{
+    margin: 8px 0px 24px 8px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #5A70FF;
+}
+
+/* 강릉가장 댓글 */
+.comment_done_box2{
+    padding-left: 16px;
+    padding-top: 8px;
+}
+.msg2{
+    padding-left: 56px;
+}
+.re_msg_icon{
+    margin-left: 24px;
+    position: relative;
+    float: left;
+}
+
+
+
+
+
+/* 댓글 접었다 펴기 */
+.checkbox {
+    display: none; 
+  }
+  .title {
+  }
+  .desc {
+    width: 720px;
+    max-height: 0px;
+    overflow: hidden;
+
+  }
+  .checkbox:checked + .title + .desc {
+    max-height: 1000px; 
+  }
+
+
+
+  
+/* 페이징 */
+.page_wrap {
+    margin-left: 125px;
+    margin-top: 32px;
+	font-size:0;
+ }
+.page_nation {
+	display:inline-block;
+}
+.page_nation .none {
+	display:none;
+}
+.page_nation a {
+	display:block;
+	margin:0 3px;
+	float:left;
+	/* border:1px solid #e6e6e6; */
+	width:28px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	background-color:#fff;
+	font-size:13px;
+	color:#999999;
+	text-decoration:none;
+}
+.page_nation .arrow {
+	/* border:1px solid #ccc; */
+}
+.page_nation .prev {
+	background: url('../../img/post/page_back.svg') no-repeat center center;
+	margin-right:7px;
+}
+.page_nation .next {
+	background: url('../../img/post/page_next.svg') no-repeat center center;
+	margin-left:7px;
+}
+.page_nation a.active {
+	background-color:#42454c;
+	color:#fff;
+	border:1px solid #42454c;
+}

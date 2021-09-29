@@ -1,0 +1,85 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+html {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+    font-family: 'NanumSquare', 'sans-serif';
+}
+
+
+#layout{
+    margin:0px auto; 
+    width:720px; 
+    background-color: white;
+}
+
+.content_top{
+    padding-top: 32px;
+}
+
+/* 글작성 박스 */
+.all_box{
+    margin: 0px 32px 64px 32px;
+}
+
+.title_box{
+    width: 656px;
+    height: 52px;
+    border: solid 1px #2E2E2E;
+}
+
+.title_txt{
+    margin: 16px;
+    font-size: 18px;
+    color: #9D9D9D;
+    font-weight: bold;
+}
+
+/* 이미지 첨부 */
+.image{
+    margin: 16px;
+}
+
+.image_icon{
+    margin-right: 8px;
+    position: relative;
+    float: left;
+}
+
+.image_icon_txt{
+    padding: 2px 16px 0px 4px;
+    font-size: 12px;
+    color: #2E2E2E;
+    position: relative;
+}
+
+/* 내용입력 */
+.main_box{
+    width: 656px;
+    height: 440px;
+    border: solid 1px #2E2E2E;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+/* 글 등록 */
+.write_save{
+    width: 62px; 
+    height: 29px; 
+    border-radius: 15px;
+    border: solid 1px #333333;
+    background-color: #333333;
+    float: right;
+}
+
+.save_txt{
+    margin: 8px 20px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.content_bottom{
+    padding-top: 24px;
+}
