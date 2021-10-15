@@ -22,6 +22,7 @@ html {
     border-top: solid 1px;
 }
 .title_image{
+    text-align: center;
 }
 
 .title_txt{
@@ -305,6 +306,7 @@ hr{
     display: none; 
   }
   .title {
+    text-align: center;
   }
   .desc {
     width: 720px;
@@ -344,9 +346,6 @@ hr{
 	font-size:13px;
 	color:#999999;
 	text-decoration:none;
-}
-.page_nation .arrow {
-	/* border:1px solid #ccc; */
 }
 .page_nation .prev {
 	background: url('../../img/post/page_back.svg') no-repeat center center;

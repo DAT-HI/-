@@ -1,0 +1,155 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+html {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+    font-family: 'NanumSquare', 'sans-serif';
+}
+
+
+#layout{
+    margin:0px auto; 
+    width:720px; 
+    background-color: white;
+}
+
+/* 제목 */
+.title__image{
+    z-index: 1;
+    position: relative;
+}
+
+.title__txt{
+    margin-top: -70px;
+    margin-left: 131px;
+    position: relative;
+    z-index: 2;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2E2E2E;
+}
+
+/* 내용 */
+.content{
+    padding-left: 16px;
+    padding-top: 32px;
+}
+
+.content__txt{
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    font-size: 15px;
+    color: #2E2E2E;
+}
+.content__txt2{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-size: 15px;
+    color: #2E2E2E;
+}
+
+/* 공감, 댓글, 수정 */
+.react{
+    padding-left: 16px;
+    padding-top: 103px;
+}
+
+.react_circle{
+    margin-right: 16px;
+    width: 80px; 
+    height: 33px; 
+    border-radius: 22px;
+    border: solid 1px #2E2E2E;
+    position: relative;
+    float: left;
+}
+
+.heart_icon{
+    margin: 10px 8px;
+}
+
+.react_circle_txt{
+    margin-top: -29px;
+    margin-left: 32px;
+    font-size: 12px;
+    color: #2E2E2E;
+    position: relative;
+}
+
+.comment_icon{
+    margin: 8px 10px;
+}
+
+.react_circle_txt2{
+    margin-top: -29px;
+    margin-left: 38px;
+    font-size: 12px;
+    color: #2E2E2E;
+    position: relative;
+}
+
+.modify_icon{
+    margin: 8px 6px;
+}
+
+.react_circle_txt3{
+    margin-top: -28px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #2E2E2E;
+    position: relative;
+}
+
+/* 공감, 댓글, 수정 */
+.category{
+    padding: 97px 0px 16px 16px;
+    padding-left: 16px;
+    padding-top: 97px;
+}
+
+.category_txt{
+    padding-bottom: 16px;
+    font-size: 14px;
+    color: #2E2E2E;
+    font-weight: bold;
+}
+
+hr{
+    width: 688px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    border:#707070; 
+    border-top:solid 1px #707070;
+}
+
+.postlist_txt{
+    padding-bottom: 24px;
+    padding-right: 180px;
+    font-size: 13px;
+    color: #2E2E2E;
+    float: left;
+}
+
+.postlist_day{
+    padding-right: 16px;
+    font-size: 11px;
+    color: #2E2E2E;
+    float: right;
+    text-align: right;
+}
+
+.postlist_day2{
+    padding-right: 16px;
+    font-size: 11px;
+    color: #2E2E2E;
+    float: left;
+    text-align: right;
+}
+
+/* 하단 */
+.done{
+    padding-left: 16px;
+    padding-top: 188px;
+}

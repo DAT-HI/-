@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+}
+header {
+    width: 1024px;
+    height: 54px;
+    padding: 20px 32px 0px;
+    /* outline: dotted 1px blue; */
+    
+}
+#title {
+    font-size: 25px;
+    height: 32px;
+    float: left;
+}
+#searchBar {
+    width: 257px;
+    height: 32px;
+    border:  1px solid #aaa;
+    border-radius: 50px;
+    float: right;
+}
+#searchBar > input {
+    font-size: 16px;
+    width : 209px;
+    padding : 7px 8px;
+    border: 0px; 
+    float: left;
+    border-radius: 50px;
+}
+#searchBar > button {
+    width: 32px;
+    height: 32px;
+    border: 0px;
+    outline: none;
+    float: right;
+    background-color: #fff;
+    border-radius: 0px 50px 50px 0px ;
+} 
+/* #searchBar>button:hover {
+    cursor: pointer;
+} */
+#searchBar > button > svg {   
+    width: 16px;
+    height: 16px;
+}
+nav {
+    width: 1024px;
+    height: 32px;
+    /* outline: 1px dotted red; */
+}
+nav>ul>li {
+    float: left;
+    list-style: none;
+    margin-top: 8px;
+    margin-left: 80px;
+    height: 100%;
+    text-align: center;
+    /* outline: 1px dotted red; */
+
+}
+nav>ul>li:nth-child(1) {
+    margin-left: 32px;
+}
+section {
+    width: 656px;
+    height: 502px;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article {
+    width: 192px;
+    height: 200px;
+    border:  1px solid #aaa;
+}
+article>img{
+
+    height: 128px;
+}
+.textArticle {
+    padding: 8px;
+    width: 176px;
+    height: 56px;
+}
+.textArticle>h2{
+    font-size: 14px;
+}
+.textArticle>p{
+    font-size: 12px;
+    margin-top: 4px;
+}
+aside {
+    float: left;
+    width: 289px;
+    height: 546px;
+    padding: 20px 8px 0px;
+}
+
+aside>ul>li {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    outline: 1px dotted red;
+
+}
