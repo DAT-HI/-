@@ -11,12 +11,17 @@ html {
     margin:0px auto; 
     width:720px; 
     background-color: white;
+    float: left;
+    border-right: solid 1px;
 }
 
 /* 제목 */
-.title_image{
+.title_image_main{
     z-index: 1;
     position: relative;
+    border-top: solid 1px;
+}
+.title_image{
 }
 
 .title_txt{
@@ -355,4 +360,47 @@ hr{
 	background-color:#42454c;
 	color:#fff;
 	border:1px solid #42454c;
+}
+
+
+
+
+/* aside */
+post_aside {
+    height: 1550px;
+    float: right;
+    margin-left: -1020px; 
+    width:305px; 
+    background-color: white;
+    border-top: solid 1px;
+}
+
+
+post_aside>ul>li {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    /* outline: 1px dotted red; */
+    float: left;
+    list-style: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    padding-left: 56px;
+    height: 100%;
+    /* outline: 1px dotted red; */
+   
+}
+
+
+
+.articleList10{
+    padding: 16px;
+    margin: 16px;
+    font-size: 15px;
+}
+post_aside>ol>li {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }

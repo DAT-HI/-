@@ -11,10 +11,13 @@ html {
     margin:0px auto; 
     width:720px; 
     background-color: white;
+    float: left;
+    border-right: solid 1px;
 }
 
 .content_top{
     padding-top: 32px;
+    border-top: solid 1px;
 }
 
 /* 글작성 박스 */
@@ -82,4 +85,45 @@ html {
 
 .content_bottom{
     padding-top: 24px;
+}
+
+
+/* aside */
+post_aside {
+    height: 647px;
+    float: right;
+    margin-left: -1020px; 
+    width:305px; 
+    background-color: white;
+    border-top: solid 1px;
+}
+
+
+post_aside>ul>li {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    /* outline: 1px dotted red; */
+    float: left;
+    list-style: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    padding-left: 56px;
+    height: 100%;
+    /* outline: 1px dotted red; */
+   
+}
+
+
+
+.articleList10{
+    padding: 16px;
+    margin: 16px;
+    font-size: 15px;
+}
+post_aside>ol>li {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
